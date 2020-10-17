@@ -1,7 +1,7 @@
 # File created using '.gitignore Generator' for Visual Studio Code: https://bit.ly/vscode-gig
 
-# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,linux,jupyternotebooks,python
-# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,linux,jupyternotebooks,python
+# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,python,linux,jupyternotebooks
+# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,python,linux,jupyternotebooks
 
 ### JupyterNotebooks ###
 # gitignore template for Jupyter Notebooks
@@ -143,6 +143,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+pythonenv*
 
 # Spyder project settings
 .spyderproject
@@ -165,19 +166,23 @@ dmypy.json
 # pytype static type analyzer
 .pytype/
 
+# profiling data
+.prof
+
 ### VisualStudioCode ###
-.vscode
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-*.code-workspace
+.vscode/*
+# !.vscode/settings.json
+# !.vscode/tasks.json
+# !.vscode/launch.json
+# !.vscode/extensions.json
+# *.code-workspace
 
 ### VisualStudioCode Patch ###
 # Ignore all local history of files
 .history
+.ionide
 
-# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,linux,jupyternotebooks,python
+# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,python,linux,jupyternotebooks
 
 # Custom rules (everything added below won't be overriden by 'Generate .gitignore File' if you use 'Update' option)
 
